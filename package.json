@@ -1,0 +1,21 @@
+{
+  "name": "3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "pose-format": "^1.5.1",
+    "process": "^0.11.10",
+    "three": "^0.167.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.5"
+  }
+}

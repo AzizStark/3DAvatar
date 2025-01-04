@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My first three.js app</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script>
+      window.global = window;
+    </script>
+    <script type="module">
+      import { Buffer } from "buffer/"; // <-- no typo here ("/")
+      import process from "process";
+
+      window.Buffer = Buffer;
+      window.process = process;
+    </script>
+  </head>
+  <body>
+    <script type="module" src="/gltf_example.js"></script>
+  </body>
+</html>
